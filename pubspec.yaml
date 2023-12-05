@@ -1,0 +1,26 @@
+name: intern_testing
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  audioplayers: ^5.2.1
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  open_filex: ^4.3.4
+  video_player: ^2.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/videos/
+    - assets/music/
